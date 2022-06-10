@@ -1,5 +1,8 @@
 console.log(document);
 console.log(document.title);
+let dataSiswa = [
+  { nama: 'vira', age: '28' }
+]
 
 // merubah title document
 document.title = "Skilvul";
