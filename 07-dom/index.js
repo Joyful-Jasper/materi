@@ -1,5 +1,8 @@
 console.log(document);
 console.log(document.title);
+let dataSiswa = [
+    { nama: 'dila', age: 22 }
+]
 
 // merubah title document
 document.title = "Skilvul";
@@ -51,15 +54,15 @@ const buttonLogin = document.querySelector("#login");
 //   alert(username.value);
 // };
 
-buttonLogin.addEventListener("click", function () {
-  alert(document.querySelector("#username").value + password.value);
+buttonLogin.addEventListener("click", function() {
+    alert(document.querySelector("#username").value + password.value);
 });
 // ketika button login di klik mengeluarkan alert username dan password
 
 // event mouse over
 const hover = document.querySelector("#hover");
 
-hover.addEventListener("mouseover", function () {
-  console.log("tes");
-  hover.style.color = "yellow";
+hover.addEventListener("mouseover", function() {
+    console.log("tes");
+    hover.style.color = "yellow";
 });
