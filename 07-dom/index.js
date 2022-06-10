@@ -63,3 +63,6 @@ hover.addEventListener("mouseover", function () {
   console.log("tes");
   hover.style.color = "yellow";
 });
+
+
+document.write("Mirza");
